@@ -1,0 +1,225 @@
+﻿@font-face {
+    font-family: 'Barlow';
+    src: url('~/fonts/Barlow/Barlow-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Fraunces';
+    src: url('~/fonts/Fraunces/static/Fraunces/Fraunces-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'SpaceMono';
+    src: url('~/fonts/Space_Mono/SpaceMono-Regular.ttf');
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    background-color: black;
+    background-image: url(../images/pexels-kássia-melo-10269890.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.mywrapper {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.mycontainer {
+    width: 100%;
+}
+
+
+/* Home Page styles*/
+.bio-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: center;
+    width: 100%;
+    height: 70vh;
+}
+
+.bio-container {
+    justify-self: center;
+    align-self: center;
+    text-align: left;
+    padding: 1rem 1rem;
+    width: 50%;
+    height: 50%;
+}
+
+.bio-container > h1 {
+    font-family: Barlow;
+    font-size: 3em;
+}
+
+.bio-container > p {
+    font-family: Barlow;
+    font-size: 1.2em;
+}
+
+.projects-btn {
+    position: absolute;
+    text-decoration: none;
+    text-align: center;
+    width: auto;
+    height: auto;
+    border: none;
+    border-radius: 50px 50px 50px 50px;
+    padding: 1rem 1rem;
+    color: white;
+    background-color: blue;
+}
+
+.projects-btn:hover {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+.img-container {
+    justify-self: center;
+    align-self: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 50%;
+    height: 50vh;
+}
+
+/* Projects page styles*/
+.projects-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-content: center;
+    padding: 1rem 1rem;
+    width: 100%;
+    height: auto;
+}
+
+.projects-container {
+    display: flex;
+    padding: 1rem 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    width: 100%;
+    height: 20%;
+}
+
+.projects-container > img {
+    width: 45%;
+    height: 40%;
+    margin: auto auto;
+}
+
+.projects-description {
+    text-align: center;
+    margin: auto auto;
+    width: 50%;
+    height: auto;
+}
+
+.projects-description > ul {
+    list-style: none;
+}
+
+.contact-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: center;
+    width: 100%;
+    height: 90vh;
+}
+
+.contact-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    height: 100%;
+    width: 50%;
+}
+
+.phone {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    color: white;
+    width: 35%;
+    height: 35%;
+    margin: 1rem 1rem;
+    border: 1px solid white;
+}
+
+.phone > img {
+    margin: auto 0;
+    width: 20%;
+    height: 20%;
+}
+
+.email {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    color: white;
+    width: 35%;
+    height: 35%;
+    margin: 1rem 1rem;
+}
+
+.email > img {
+    margin: auto 0;
+    width: 20%;
+    height: 20%;
+}
+
+.address {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    width: 35%;
+    height: 35%;
+    margin: 1rem 1rem;
+    border: 1px solid white;
+}
+
+.address > img {
+    margin: auto 0;
+    width: 20%;
+    height: 20%;
+}
+
+.github {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    color: white;
+    width: 35%;
+    height: 35%;
+    margin: 1rem 1rem;
+}
+
+.github > img {
+    margin: auto 0;
+    width: 20%;
+    height: 20%;
+}
